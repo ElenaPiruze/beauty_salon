@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Luxe Glow Beauty Salon</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero" id="home">
+      <nav class="nav container">
+        <a class="brand" href="#home">Luxe Glow</a>
+        <ul class="nav-links">
+          <li><a href="#services">Services</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="hero-content container">
+        <p class="eyebrow">Premium Beauty & Wellness</p>
+        <h1>Feel Beautiful. Feel Confident.</h1>
+        <p>
+          Experience luxury hair, skin, and nail care with our expert stylists in a calming,
+          modern salon environment.
+        </p>
+        <div class="hero-buttons">
+          <a class="btn btn-primary" href="#contact">Book Appointment</a>
+          <a class="btn btn-secondary" href="#services">Explore Services</a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="section container" id="services">
+        <h2>Our Signature Services</h2>
+        <div class="cards">
+          <article class="card">
+            <h3>Hair Styling</h3>
+            <p>Cuts, coloring, blowouts, and treatments tailored to your unique style.</p>
+          </article>
+          <article class="card">
+            <h3>Skin Care</h3>
+            <p>Facials and glow therapies designed to nourish and revitalize your skin.</p>
+          </article>
+          <article class="card">
+            <h3>Nail Studio</h3>
+            <p>Classic manicures, gel polish, and spa pedicures with flawless finish.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section section-alt" id="about">
+        <div class="container split">
+          <div>
+            <h2>Why Choose Luxe Glow?</h2>
+            <p>
+              At Luxe Glow, we blend advanced beauty techniques with personalized care. Our team
+              is committed to helping you look and feel your best, whether you’re preparing for a
+              special occasion or simply treating yourself.
+            </p>
+          </div>
+          <ul class="feature-list">
+            <li>Certified beauty professionals</li>
+            <li>High-quality, skin-safe products</li>
+            <li>Relaxing, hygienic studio space</li>
+            <li>Convenient evening & weekend slots</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section container" id="gallery">
+        <h2>Salon Highlights</h2>
+        <div class="gallery-grid">
+          <div class="gallery-item">Hair Art</div>
+          <div class="gallery-item">Facial Suite</div>
+          <div class="gallery-item">Nail Lounge</div>
+          <div class="gallery-item">Bridal Prep</div>
+        </div>
+      </section>
+
+      <section class="section section-cta" id="contact">
+        <div class="container contact-wrap">
+          <div>
+            <h2>Book Your Visit</h2>
+            <p>
+              Call us at <a href="tel:+15551234567">(555) 123-4567</a> or send us your details.
+            </p>
+          </div>
+          <form class="contact-form" aria-label="Appointment request form">
+            <label>
+              Name
+              <input type="text" name="name" placeholder="Your name" required />
+            </label>
+            <label>
+              Email
+              <input type="email" name="email" placeholder="you@example.com" required />
+            </label>
+            <label>
+              Service
+              <select name="service" required>
+                <option value="">Choose a service</option>
+                <option>Hair Styling</option>
+                <option>Skin Care</option>
+                <option>Nail Studio</option>
+              </select>
+            </label>
+            <button class="btn btn-primary" type="submit">Send Request</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>© 2026 Luxe Glow Beauty Salon. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
